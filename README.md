@@ -1,2 +1,1 @@
-# rsschool-cv
-CV
+https://Levik-24.github.io/rsschool-cv/cv
