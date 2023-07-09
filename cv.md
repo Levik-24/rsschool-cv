@@ -45,7 +45,9 @@
 
 
 ### Meta Certificates ###
-(![](image.png))
+![](version_control.png)
+![](file:///D:/Meta%20Certificate/Coursera%2053XBWBAVUAHN.pdf)
+
 
 ### Extracurricular activities: ###
 I am a quick learner, well-organized and communicable. Able to prioritize and adapt well to new situations. Besides that I am a team worker.
