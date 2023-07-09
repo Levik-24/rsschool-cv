@@ -4,7 +4,7 @@
 
 ### Contact information ###
 **Email:** lfetman@gmail.com
-**Linkedin:** [Lev Fetman] (https://www.linkedin.com/in/lev-fetman-702975223/)
+**Linkedin:** [Lev Fetman](https://www.linkedin.com/in/lev-fetman-702975223/)
 
 ### Work experience ###
 
@@ -41,3 +41,6 @@
     - POSTMAN – junior;
     - Webdriver.io framework – junior ;
     - Cucumber – junior
+
+### Extracurricular activities: ###
+I am a quick learner, well-organized and communicable. Able to prioritize and adapt well to new situations. Besides that I am a team worker.
