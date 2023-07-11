@@ -1,0 +1,147 @@
+body{
+    margin: 0 auto;
+}
+
+/*Start of header section */
+
+.containers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    
+}
+
+.aquaContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 50%;
+    background-color: aqua;
+    font-style: italic;
+}
+
+.aquaContainer img{
+    border-radius: 50px;
+    margin: 15px;
+}
+
+.purpleContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 50%;
+    background-color: rgb(189, 194, 216);
+    font-style: italic;
+    font-size: large;
+}
+
+
+/*End of header section*/
+
+
+
+/*Start of main section*/
+
+.experience{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 186, 97);
+    padding: 40px;
+}
+
+
+.education{
+    width: 300px;
+    margin: 10px;
+}
+
+.education h1{
+    text-align: center;
+}
+
+
+.work-experience{
+    width: 400px;
+    border: 3px solid grey;
+    margin: 10px;
+}
+
+.work-experience h1{
+    text-align: center;
+}
+
+
+.skills{
+    width: 300px;
+    margin: 10px;
+}
+
+.skills h1{
+    text-align: center;
+}
+
+
+ul li{
+    margin-bottom: 10px;
+}
+
+ul ul li {
+    margin-bottom: 20px; /* Отступ между рядами подэлементов списка */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.code{
+    display: flow-root;   
+    width: 50%;
+    background-color: rgb(163, 205, 216);
+}
+
+.code code{
+    display: flex;
+    justify-content: center;
+}
+
+.code h1{
+    text-align: center;
+}
+*/
+
+.code {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: monospace;
+  }
+  
+pre {
+    white-space: pre-wrap;
+    margin: 0;
+  }
+  
+code {
+    display: block;
+    color: #333;
+    padding: 0.5em;
+  }
+
+
+/*end of main section*/
+
+
