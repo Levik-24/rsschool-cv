@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lev Fetman CV</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/prism.css">
+</head>
+<body>
+    <header>
+    
+        <div class="containers">
+
+            <div class="aquaContainer">
+                <img src="images/myPhoto.png" alt="myPhoto">
+                <h1>Lev Fetman</h1>
+                <p>Junior Frontend developer</p>
+            </div>
+
+            <div class="purpleContainer">
+                <h2>Contact information:</h2>
+                <ul>
+                    <li><p><strong>Email:</strong>lfetman@gmail.com<br></p></li>
+                    <li><strong>Linkedin:</strong><a href="https://www.linkedin.com/in/lev-fetman-702975223/">Lev Fetman</a></li>
+                </ul>
+                
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="experience">
+            
+            <div class="education">
+                <h1>Education</h1>
+                <ul>
+                    <li><p>Third year student (bachelor program) of National university of life and environmental science of Ukraine (Specialty: Computer engineering);</p></li>
+                    <li><p>2020-2021 Cisco Academy;</p></li>
+                    <li><p>2018-2019 English courses DEC School;</p></li>
+                    <li><p>2017-2018 German courses Goethe Institut;</p></li>
+                    <li><p>2016-2018 computer academy “Step”;</p></li>
+                    <li><p>July 2022-September 2022 – internship at National Taiwan university of science and technologies ( 5G networks)</p></li>
+                    <li><p>October 2022-to the present day – exchange student at Bern university (Computer science)</p></li>
+                </ul>
+
+            </div>
+
+
+
+            <div class="work-experience">
+                <h1>Work experience</h1>
+                <ul>
+                    <li><strong>Monitoring engineer</strong>(01.05.2021 — 13.10.2022)</li>
+    
+                        <ul>
+                            <li>Company: MMDSmart (Ukraine, Kyiv)</li>
+                        </ul>
+    
+                    <li><strong>Junior filmmaker</strong>(01.06.2019 — 31.07.2019)</li>
+                        
+                        <ul>
+                            <li>Company: Epicenter (Ukraine, Kyiv)</li>
+                        </ul>
+                </ul>
+            </div>
+
+            <div class="skills">
+                <h1>Skills:</h1>
+
+                <ul>
+                    <li><p>Languages</p></li>
+                        <ul>
+                            <li><p>German - B2</p></li>
+                            <li><p>English - B2</p></li>
+                            <li><p>Ukrainian - mother language</p></li>
+                        </ul>
+                    
+                    <li>IT knowledges:</li>
+                        <ul>
+                            <li><p>SQL – junior;</p></li>
+                            <li><p>Js – junior;</p></li>
+                            <li><p>Zabbix – junior;</p></li>
+                            <li><p>HTML/CSS – middle;</p></li>
+                            <li><p>React - junior</p></li>
+                            <li><p>POSTMAN – junior;</p></li>
+                            <li><p>Webdriver.io framework – junior ;</p></li>
+                            <li><p>Cucumber – junior</p></li>
+                        </ul>
+                    
+                </ul>
+            </div>
+
+        </div>
+
+
+        <div class="code">
+            <h1>Code example</h1>
+            <pre class="language-javascript">
+              <code>
+          const btns = document.querySelectorAll(".btn");
+          const overlay = document.querySelector(".overlay");
+          const form = document.querySelector(".form");
+          
+          btns.forEach(function(btn){
+              btn.addEventListener('click', function(){
+                  overlay.style.display = 'flex';
+              })
+          });
+          
+          form.addEventListener('click', function(e){
+              e.stopPropagation();
+          });
+          
+          overlay.addEventListener('click', function(){
+              overlay.style.display = 'none';
+          });
+              </code>
+            </pre>
+          </div>
+
+        <div class="certificate">
+            <h1>Meta certificate</h1>
+            <img src="images/certificate.jpg" alt="certificate">
+        </div>
+
+        <div class="extracurricular-activities">
+            <h2>Extracurricular activities:</h2>
+            <p>I am a quick learner, well-organized and communicable. Able to prioritize and adapt well to new situations. Besides that I am a team worker.</p>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <a href="https://rs.school/js/"><img class="rs-img" src="images/rs_school_js.svg" alt="Логотип курса"></a>
+            <a href="https://github.com/Levik-24"><img class="github-img" src="images/github.svg" alt="github"></a>
+        </div>
+    </footer>
+
+    <script src="prism.js"></script>
+</body>
+</html>
