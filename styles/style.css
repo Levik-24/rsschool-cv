@@ -1,0 +1,185 @@
+body{
+    margin: 0 auto;
+}
+
+/*Start of header section */
+
+.containers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+}
+
+.aquaContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 50%;
+    background-color: aqua;
+    font-style: italic;
+}
+
+.aquaContainer img{
+    border-radius: 50px;
+    margin: 15px;
+}
+
+.purpleContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 50%;
+    background-color: rgb(189, 194, 216);
+    font-style: italic;
+    font-size: large;
+}
+
+
+/*End of header section*/
+
+
+
+/*Start of main section*/
+
+.experience{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 186, 97);
+    padding: 40px;
+}
+
+
+.education{
+    width: 300px;
+    margin: 10px;
+}
+
+.education h1{
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+}
+
+
+.work-experience{
+    width: 400px;
+    border: 3px solid grey;
+    margin: 10px;
+}
+
+.work-experience h1{
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+}
+
+
+.skills{
+    width: 300px;
+    margin: 10px;
+}
+
+.skills h1{
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+}
+
+
+ul li{
+    margin-bottom: 10px;
+    font-style: italic;
+    font-size: large;
+}
+
+ul ul li {
+    margin-bottom: 20px; /* Отступ между рядами подэлементов списка */
+    font-style: italic;
+    font-size: large;
+}
+
+
+.code {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: monospace;
+  }
+  
+pre {
+    white-space: pre-wrap;
+    margin: 0;
+  }
+  
+code {
+    display: block;
+    color: #333;
+    padding: 0.5em;
+}
+
+.certificate{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.certificate h1{
+    font-style: italic;
+}
+
+.extracurricular-activities{
+    background-color: azure;
+    text-align: center;
+    font-style: italic;
+    padding: 20px;
+    margin-top: 20px;
+}
+.extracurricular-activities p{
+    font-size: large;
+}
+
+/*end of main section*/
+
+/*Start of footer section*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.rs-img{
+    position: relative;
+    transition: 1s;
+    width: 70px;
+    height: 30px;
+    margin: 10px;
+    
+}
+
+.rs-img:hover{
+    z-index: 10;
+    transform: scale(1.2);
+}
+
+
+.github-img{
+    position: relative;
+    transition: 1s;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.github-img:hover{
+    z-index: 10;
+    transform: scale(1.2);
+}
+
+/*end of footer section*/
